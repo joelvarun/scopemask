@@ -1,0 +1,383 @@
+{
+  "composition": {
+    "vocab_size": 2048,
+    "pure_ident_tokens": 2020,
+    "mixed_tokens": 27
+  },
+  "static_functions": 12800,
+  "lm_order": 5,
+  "corpus_programs": 4000,
+  "setup_seconds": 10.373036100063473,
+  "levels": [
+    {
+      "label": "weak",
+      "copy_weight": 0.5,
+      "baseline": {
+        "arm": "lexicon",
+        "copy_weight": 0.5,
+        "attempts": 1298,
+        "valid": 30,
+        "tokens": 51431,
+        "tokens_per_attempt": 39.62326656394453,
+        "valid_rate": 0.023112480739599383,
+        "tokens_per_valid": 1714.3666666666666,
+        "use_positions": 11308,
+        "unresolved_use_positions": 6441,
+        "use_error_rate": 0.5695967456667845,
+        "by_uses": {
+          "2": [
+            11,
+            3
+          ],
+          "3": [
+            119,
+            14
+          ],
+          "4": [
+            15,
+            0
+          ],
+          "5": [
+            116,
+            5
+          ],
+          "6": [
+            22,
+            0
+          ],
+          "7": [
+            103,
+            1
+          ],
+          "8": [
+            58,
+            0
+          ],
+          "9": [
+            132,
+            1
+          ],
+          "10": [
+            158,
+            1
+          ],
+          "11": [
+            564,
+            5
+          ]
+        }
+      },
+      "scopemask": {
+        "arm": "scopemask",
+        "copy_weight": 0.5,
+        "attempts": 200,
+        "valid": 200,
+        "tokens": 8210,
+        "tokens_per_attempt": 41.05,
+        "valid_rate": 1.0,
+        "tokens_per_valid": 41.05,
+        "use_positions": 1645,
+        "unresolved_use_positions": 0,
+        "use_error_rate": 0.0,
+        "by_uses": {
+          "1": [
+            2,
+            2
+          ],
+          "2": [
+            3,
+            3
+          ],
+          "3": [
+            20,
+            20
+          ],
+          "4": [
+            4,
+            4
+          ],
+          "5": [
+            16,
+            16
+          ],
+          "6": [
+            9,
+            9
+          ],
+          "7": [
+            18,
+            18
+          ],
+          "8": [
+            12,
+            12
+          ],
+          "9": [
+            22,
+            22
+          ],
+          "10": [
+            27,
+            27
+          ],
+          "11": [
+            67,
+            67
+          ]
+        }
+      },
+      "tokens_per_valid_ratio": 41.76289078359724
+    },
+    {
+      "label": "medium",
+      "copy_weight": 0.85,
+      "baseline": {
+        "arm": "lexicon",
+        "copy_weight": 0.85,
+        "attempts": 186,
+        "valid": 30,
+        "tokens": 9642,
+        "tokens_per_attempt": 51.83870967741935,
+        "valid_rate": 0.16129032258064516,
+        "tokens_per_valid": 321.4,
+        "use_positions": 1940,
+        "unresolved_use_positions": 687,
+        "use_error_rate": 0.3541237113402062,
+        "by_uses": {
+          "3": [
+            3,
+            1
+          ],
+          "5": [
+            2,
+            0
+          ],
+          "6": [
+            3,
+            2
+          ],
+          "7": [
+            2,
+            0
+          ],
+          "8": [
+            3,
+            2
+          ],
+          "9": [
+            18,
+            5
+          ],
+          "10": [
+            2,
+            0
+          ],
+          "11": [
+            153,
+            20
+          ]
+        }
+      },
+      "scopemask": {
+        "arm": "scopemask",
+        "copy_weight": 0.85,
+        "attempts": 200,
+        "valid": 200,
+        "tokens": 11007,
+        "tokens_per_attempt": 55.035,
+        "valid_rate": 1.0,
+        "tokens_per_valid": 55.035,
+        "use_positions": 2101,
+        "unresolved_use_positions": 0,
+        "use_error_rate": 0.0,
+        "by_uses": {
+          "3": [
+            5,
+            5
+          ],
+          "5": [
+            2,
+            2
+          ],
+          "6": [
+            2,
+            2
+          ],
+          "7": [
+            2,
+            2
+          ],
+          "8": [
+            3,
+            3
+          ],
+          "9": [
+            8,
+            8
+          ],
+          "10": [
+            4,
+            4
+          ],
+          "11": [
+            174,
+            174
+          ]
+        }
+      },
+      "tokens_per_valid_ratio": 5.839920050876715
+    },
+    {
+      "label": "strong",
+      "copy_weight": 0.93,
+      "baseline": {
+        "arm": "lexicon",
+        "copy_weight": 0.93,
+        "attempts": 84,
+        "valid": 30,
+        "tokens": 4463,
+        "tokens_per_attempt": 53.13095238095238,
+        "valid_rate": 0.35714285714285715,
+        "tokens_per_valid": 148.76666666666668,
+        "use_positions": 915,
+        "unresolved_use_positions": 185,
+        "use_error_rate": 0.20218579234972678,
+        "by_uses": {
+          "7": [
+            2,
+            0
+          ],
+          "10": [
+            1,
+            1
+          ],
+          "11": [
+            81,
+            29
+          ]
+        }
+      },
+      "scopemask": {
+        "arm": "scopemask",
+        "copy_weight": 0.93,
+        "attempts": 200,
+        "valid": 200,
+        "tokens": 10670,
+        "tokens_per_attempt": 53.35,
+        "valid_rate": 1.0,
+        "tokens_per_valid": 53.35,
+        "use_positions": 2140,
+        "unresolved_use_positions": 0,
+        "use_error_rate": 0.0,
+        "by_uses": {
+          "3": [
+            1,
+            1
+          ],
+          "5": [
+            1,
+            1
+          ],
+          "6": [
+            3,
+            3
+          ],
+          "7": [
+            3,
+            3
+          ],
+          "8": [
+            2,
+            2
+          ],
+          "9": [
+            5,
+            5
+          ],
+          "10": [
+            3,
+            3
+          ],
+          "11": [
+            182,
+            182
+          ]
+        }
+      },
+      "tokens_per_valid_ratio": 2.788503592627304
+    }
+  ],
+  "syntax_reference": {
+    "arm": "syntax",
+    "copy_weight": 0.85,
+    "attempts": 800,
+    "valid": 5,
+    "tokens": 49710,
+    "tokens_per_attempt": 62.1375,
+    "valid_rate": 0.00625,
+    "tokens_per_valid": 9942.0,
+    "use_positions": 8312,
+    "unresolved_use_positions": 4776,
+    "use_error_rate": 0.5745909528392685,
+    "by_uses": {
+      "0": [
+        1,
+        0
+      ],
+      "2": [
+        1,
+        0
+      ],
+      "3": [
+        12,
+        0
+      ],
+      "4": [
+        1,
+        0
+      ],
+      "5": [
+        20,
+        0
+      ],
+      "6": [
+        8,
+        0
+      ],
+      "7": [
+        20,
+        0
+      ],
+      "8": [
+        8,
+        0
+      ],
+      "9": [
+        28,
+        0
+      ],
+      "10": [
+        45,
+        0
+      ],
+      "11": [
+        656,
+        5
+      ]
+    }
+  },
+  "mask_timing": {
+    "states_timed": 800,
+    "naive_states_timed": 200,
+    "fast_us": 32.86724997451529,
+    "naive_us": 12898.974500130862,
+    "fast_automaton_steps": 30.72375,
+    "naive_automaton_steps": 7961.08,
+    "fast_index_lookups": 5.65125,
+    "step_reduction": 259.1181089547988,
+    "speedup": 392.45676197833734,
+    "cold_fast_us": 31.166500120889395,
+    "cache_misses_on_cold_pass": 0,
+    "verified_states": 200
+  }
+}
